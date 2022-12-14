@@ -1,0 +1,215 @@
+proxies:
+
+  - name: SG Trojan OVH
+    server: 104.21.71.112
+    port: 443
+    type: trojan
+    password: 3e63ed90-52c6-11ed-a4d8-1239d0255272
+    skip-cert-verify: true
+    sni: blog.clova.line.me
+    network: ws
+    ws-opts:
+      path: wss://blog.clova.line.me/howdy
+      headers:
+        Host: sgovh-trojan.bonds.id
+    udp: true
+
+  - name: "[VMess] id-lb.vhax.net"
+    server: 104.21.21.147
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-lb.vhax.net
+    network: ws
+    ws-opts:
+      path: /sshkit/Jwjwjwh/6383173205a0f/
+      headers:
+        Host: id-lb.vhax.net
+    udp: true
+
+  - name: howdy weekly flex
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: c4958680-6cab-11ed-ab6a-1239d0255272
+    skip-cert-verify: true
+    sni: zendesk1.appsflyer.com
+    network: ws
+    ws-opts:
+      path: wss://zendesk1.appsflyer.com/howdy
+      headers:
+        Host: trojan3.udpgw.com
+    udp: true
+
+  - name: howdy weekly flex147
+    server: 104.21.21.147
+    port: 443
+    type: trojan
+    password: c4958680-6cab-11ed-ab6a-1239d0255272
+    skip-cert-verify: true
+    sni: trojan3.udpgw.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: trojan3.udpgw.com
+    udp: true
+
+  - name: "[Trojan] SG Trojan OVH"
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 35d04930-5981-11ed-a912-1239d0255272
+    skip-cert-verify: true
+    sni: zendesk1.appsflyer.com
+    network: ws
+    ws-opts:
+      path: wss://zendesk1.appsflyer.com/howdy
+      headers:
+        Host: sgovh-trojan.bonds.id
+    udp: true
+
+  - name: "[Trojan] ID Herza Trojan"
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: f3bac6a0-6c6c-11ed-b26a-1239d0255272
+    skip-cert-verify: true
+    sni: zendesk1.appsflyer.com
+    network: ws
+    ws-opts:
+      path: wss://zendesk1.appsflyer.com/howdy
+      headers:
+        Host: idtj-herza.bonds.id
+    udp: true
+
+  - name: "[Trojan] ID Herza Trojan 147"
+    server: 104.21.21.147
+    port: 443
+    type: trojan
+    password: f3bac6a0-6c6c-11ed-b26a-1239d0255272
+    skip-cert-verify: true
+    sni: zendesk1.appsflyer.com
+    network: ws
+    ws-opts:
+      path: wss://zendesk1.appsflyer.com/howdy
+      headers:
+        Host: idtj-herza.bonds.id
+    udp: true
+
+  - name: "[Trojan] SG Trojan Dual Stack"
+    server: 162.159.138.6
+    port: 443
+    type: trojan
+    password: 5a4cd3a0-6d40-11ed-9bc2-1239d0255272
+    skip-cert-verify: true
+    sni: zendesk1.appsflyer.com
+    network: ws
+    ws-opts:
+      path: wss://zendesk1.appsflyer.com/howdy
+      headers:
+        Host: sg-atha.bonds.id
+    udp: true
+
+  - name: "[VMess] v2ray3.udpgw.com"
+    server: zendesk1.appsflyer.com
+    port: 443
+    type: vmess
+    uuid: 595ccfa7-3ed4-476d-a135-4dd81e7a577e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray3.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray3.udpgw.com
+    udp: true
+
+  - name: "[VMess] sg3-v2ray.sshkit.org"
+    server: 162.159.138.6
+    port: 443
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zendesk1.appsflyer.com
+    network: ws
+    ws-opts:
+      path: /sshkit/979633020/6380a10b22c43/
+      headers:
+        Host: sg3-v2ray.sshkit.org
+    udp: true
+
+  - name: v2ray3 wekkly
+    server: v2ray3.udpgw.com
+    port: 443
+    type: vmess
+    uuid: 903a5664-9de8-40c0-a581-51776416876a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.26.5.10
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: 104.26.5.10
+    udp: true
+
+  - name: v2ray3t
+    server: 104.26.5.10
+    port: 443
+    type: vmess
+    uuid: 903a5664-9de8-40c0-a581-51776416876a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray3.udpgw.com
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: v2ray3.udpgw.com
+    udp: true
+
+  - name: tes akrab147
+    server: 104.21.21.147
+    port: 443
+    type: trojan
+    password: 35d04930-5981-11ed-a912-1239d0255272
+    skip-cert-verify: true
+    sni: sgovh-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sgovh-trojan.bonds.id
+    udp: true
+
+- name: vmess-ws-tls-Shhshsv-vpnjantit.com
+    type: vmess
+    server: in1.vpnjantit.com
+    port: 10001
+    uuid: 5447906c-6f4f-11ed-a342-00163e01359e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /vpnjantit
+      headers:
+        Host: 
